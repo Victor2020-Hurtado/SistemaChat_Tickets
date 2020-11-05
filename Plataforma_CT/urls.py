@@ -10,7 +10,7 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-   # path('', include('helpdesk.urls', namespace='helpdesk')),
-    path('', include('modulo.urls')),
+    path('', include('helpdesk.urls', namespace='helpdesk')),
+    path('modulo/', include('modulo.urls')),
     # path('admin/', admin.site.urls),
 ]
