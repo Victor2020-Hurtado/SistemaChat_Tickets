@@ -5,8 +5,8 @@ def login(request):
     return render(request, 'modulo/login.html')
 
 
-def index(request):
-    return render(request, 'modulo/index.html')
+def dashboard(request):
+    return render(request, 'modulo/dashboard.html')
 
 
 def room(request, room_name):
